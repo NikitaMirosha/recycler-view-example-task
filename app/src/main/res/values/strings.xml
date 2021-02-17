@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="linear_vertical">LIN V</string>
+    <string name="linear_horizontal">LIN H</string>
+    <string name="grid_vertical">GRID V</string>
+    <string name="grid_horizontal">GRID H</string>
+</resources>

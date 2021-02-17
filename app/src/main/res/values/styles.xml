@@ -1,0 +1,110 @@
+<resources>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color_bg</item>
+        <item name="colorPrimaryDark">@color/color_bg</item>
+        <item name="colorAccent">@color/color_bg</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="AppThemeMaterial" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_bg</item>
+    </style>
+
+    <style name="RecyclerTabBar" parent="Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="tabSelectedTextColor">@color/color_orange</item>
+    </style>
+
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/color_dark_gray</item>
+    </style>
+
+    <style name="VerticalDivider">
+        <item name="android:layout_width">@dimen/dp_4</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color_orange</item>
+    </style>
+
+    <style name="EditTextLayout" parent="android:Widget.EditText">
+        <item name="android:layout_marginStart">@dimen/dp_16</item>
+        <item name="android:layout_marginEnd">@dimen/dp_16</item>
+        <item name="android:layout_marginBottom">@dimen/dp_16</item>
+        <item name="android:background">@drawable/bg_rec_rounded_122</item>
+        <item name="android:paddingStart">@dimen/dp_16</item>
+    </style>
+
+    <style name="EditTextLogin" parent="android:Widget.EditText">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="android:background">@drawable/bg_rec_rounded_122</item>
+        <item name="android:paddingStart">@dimen/dp_16</item>
+        <item name="android:textColorHint">@color/color_light_gray</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:maxLength">20</item>
+    </style>
+
+    <style name="TextView" />
+
+    <style name="TextView.TitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_34</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextView.MiddleText">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+    </style>
+
+    <style name="TextView.SmallText">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextView.NewsItemDate">
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/color_orange</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+    </style>
+
+    <style name="TextView.NewsItemTitle">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/dp_10</item>
+        <item name="android:layout_marginEnd">@dimen/dp_10</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+    </style>
+
+    <style name="TextView.NewsItemSummary">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_marginStart">@dimen/dp_10</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+        <item name="android:layout_marginEnd">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+        <item name="android:textColor">@color/color_dark_white</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dp_10</item>
+        <item name="android:fontFamily">@font/ptsans</item>
+        <item name="itemTextColor">@color/color_orange</item>
+        <item name="icon">@color/color_orange</item>
+    </style>
+</resources>
